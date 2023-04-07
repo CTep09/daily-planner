@@ -8,13 +8,9 @@ Daily planner is a dynamic daily calendar that stores user inputted information 
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Once the user reaches the site they can immediately start entering text into the desired time slot and save as well. The text inside the boxes can be modified at any time, the user just needs to press save before exiting the page. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-
-![alt text](assets/images/screenshot.png)
-
+![Daily Planner](./images/daily-planner.gif)
 
 ## Built With
 
