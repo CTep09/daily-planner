@@ -41,15 +41,25 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
 
+  // Getting current hour as string
   var currentHourString = moment().format('H');
 
+  
+  // iterate over each element with time-block class
   $(".time-block").each(function () {
+
+    // Getting hour from id of current element and storing as variable then 
+    // splitting using "-" as separator and just storing the number
     var id = $(this).attr("id");
     var hourAsString = id.split("-")[1];
-
+    
+    //  Convert current hour and hour to integers
     var currentHour = parseInt(currentHourString);
     var hour = parseInt(hourAsString)
-    
+
+    // Compare current hour with hour
+    // If current hour greated than hour remove class future and add past
+    // if equal remove future and add present
     if (currentHour > hour) {
       $(this).children().eq(1).removeClass("future");
       $(this).children().eq(1).addClass("past")
