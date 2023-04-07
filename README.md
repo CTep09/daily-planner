@@ -2,6 +2,7 @@
 
 ## Description 
 
+Daily planner is a dynamic calendar that stores information into hourly slots. The 
 Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
 
 The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
@@ -30,6 +31,7 @@ List your collaborators, if any, with links to their GitHub profiles.
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
 If you followed tutorials, include links to those here as well.
+
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -37,11 +39,6 @@ If you followed tutorials, include links to those here as well.
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [jQuery](https://api.jquery.com/)
 * [BootStrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-
-## Deployed Link
-
-* ![See Live Site]()
-
 
 ## Author
 
